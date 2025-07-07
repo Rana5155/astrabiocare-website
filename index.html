@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Astra Biocare Pvt Ltd - Innovative Pharma Solutions" />
+  <title>Astra Biocare Pvt Ltd</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <!-- <script>AOS.init();</script> -->
+</head>
+<body>
+  <header class="site-header" data-aos="fade-down">
+    <div class="container header-container">
+      <div class="logo">
+        <img src="img/company_logo.png" alt="Astra Biocare Logo" />
+        <h1>Astra Biocare</h1>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeBtn" title="Toggle dark mode">🌓</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" data-aos="zoom-in">
+      <div class="hero-text">
+        <h2>Empowering Health with Science</h2>
+        <p>
+          Astra Biocare is committed to delivering innovative and high-quality pharmaceutical products to enhance global well-being.
+        </p>
+        <a href="products.html" class="btn-primary">Explore Products</a>
+      </div>
+      <div class="hero-img">
+        <img src="img/hero_medicines.jpg" alt="Pharmaceutical Products" />
+      </div>
+    </section>
+
+    <section class="product-preview" data-aos="fade-up">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="img/foljoy.jpeg" alt="FOLJOY - Next Gen Folate" />
+          <h3>FOLJOY</h3>
+        </div>
+        <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="img/clean-v7.jpeg" alt="CLEAN-V7" />
+          <h3>CLEAN-V7</h3>
+        </div>
+        <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+          <img src="img/snoril-lx.jpeg" alt="SNORIL-LX" />
+          <h3>SNORIL-LX</h3>
+        </div>
+      </div>
+      <a href="products.html" class="btn-secondary">View All Products</a>
+    </section>
+
+    <section class="about-preview" data-aos="fade-right">
+      <h2>About Astra Biocare</h2>
+      <p>
+        With a passion for innovation and patient care, Astra Biocare Pvt Ltd pioneers in creating safe, effective, and affordable medicines.
+      </p>
+      <a href="about.html" class="btn-secondary">Learn More</a>
+    </section>
+
+    <section class="contact-preview" data-aos="fade-left">
+      <h2>Get In Touch</h2>
+      <p>Have questions or want to collaborate with us? We’re just a message away.</p>
+      <a href="contact.html" class="btn-primary">Contact Us</a>
+    </section>
+  </main>
+
+  <div id="newsletterModal" class="modal">
+    <div class="modal-content" data-aos="zoom-in">
+      <span class="close" id="closeNewsletter">&times;</span>
+      <h2>Join Our Newsletter</h2>
+      <p>Stay updated with the latest in pharma innovations.</p>
+      <form id="newsletterForm">
+        <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer" data-aos="fade-up">
+    <div class="container">
+      <p>&copy; 2025 Astra Biocare Pvt Ltd. All rights reserved.</p>
+      <address>
+        Registered Office: #16, 2nd cross, Aruna Building, Somasundrapalya, Bangalore, Karnataka - 560102.
+      </address>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.AOS) {
+        AOS.init();
+      }
+    });
+  </script>
+</body>
+</html>
